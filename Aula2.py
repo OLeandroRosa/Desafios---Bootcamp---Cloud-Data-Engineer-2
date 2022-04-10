@@ -12,3 +12,6 @@ print(subtracao)
 print(multiplicacao)
 print(divisao)
 print (resto)
+
+
+print("Fim do Programa - Aula 02")
