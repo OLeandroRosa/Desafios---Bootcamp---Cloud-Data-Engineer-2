@@ -20,4 +20,5 @@ print(calculadora.valor_a)
 print(calculadora.valor_b)
 print(calculadora.soma())
 print(calculadora.substracao())
-
+print(calculadora.multiplicacao())
+print(calculadora.divisao())
