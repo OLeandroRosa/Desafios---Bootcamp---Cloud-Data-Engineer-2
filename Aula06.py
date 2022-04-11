@@ -17,13 +17,19 @@ print('Diferença simétrica: {}'. format(conjunto_diff_simetrica))
 
 conjunto_a = {1,2,3}
 conjunto_b = {1,2,3,4,5}
-conjunto_subset = conjunto_b.issubset(conjunto_a)
-print(conjunto_subset)
+conjunto_subset = conjunto_a.issubset(conjunto_b)
+print("conjunto_subset:", conjunto_subset)
 
-conjunto_superset = conjunto_b.issuperset(conjunto_a)
-print(conjunto_superset)
+conjunto_superset = conjunto_a.issuperset(conjunto_b)
+print("conjunto_superset:", conjunto_superset)
 
+lista = ['cachorro', 'cachorro', 'gato', 'gato', 'elefante']
+print('lista:', lista)
+conjunto_animal = set(lista)
+print('conjunto animal: ',  conjunto_animal)
 
+listas_animal = list(conjunto_animal)
+print('lista animal: ', listas_animal)
 
 
 # conjunto.add(5)
