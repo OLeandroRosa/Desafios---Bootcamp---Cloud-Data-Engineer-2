@@ -14,11 +14,11 @@ class Calculadora:
 
     def divisao (self):
         return self.valor_a / self.valor_b
-
-calculadora = Calculadora(10, 2) # Esta Instanceando a Classe, basicamente é inicializar os parametros/ variaveis que serão utilizados na classe
-print(calculadora.valor_a)
-print(calculadora.valor_b)
-print(calculadora.soma())
-print(calculadora.substracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
+if __name__ == '__main__':
+    calculadora = Calculadora(10, 2) # Esta Instanceando a Classe, basicamente é inicializar os parametros/ variaveis que serão utilizados na classe
+    print(calculadora.valor_a)
+    print(calculadora.valor_b)
+    print(calculadora.soma())
+    print(calculadora.substracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())
