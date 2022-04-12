@@ -1,0 +1,7 @@
+primeira linha. 
+
+Rafael, 10, 10, 5, 5
+
+Rafael, 10, 10, 5, 5
+
+Rafael, 10, 10, 5, 5
