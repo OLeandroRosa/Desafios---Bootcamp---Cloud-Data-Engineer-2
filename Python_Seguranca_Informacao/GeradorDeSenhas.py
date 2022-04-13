@@ -1,7 +1,7 @@
 import random
 import string
 
-tamanho = 16  #em boas práticas de segurança da informação é usado quando a sneha um numero apartir
+tamanho = int(input('Digite o tamanho de senha que deseja: '))  #em boas práticas de segurança da informação é usado quando a sneha um numero apartir
 # de 16 caracteres
 
 chars = string.ascii_letters + string.digits + '!@#$%¨&*()_=+,.:;/?' #armazena todas as letras maiusculas e minusculas, numeros e caracteres especiais
