@@ -2,7 +2,7 @@ import socket # biblioteca faz a relacao entre a placa de rede e o sistema opera
 import sys #fornece o acesso a algumas variaveis e funções com o interpretador em p'ython
 
 # função Socket.metodo socket, passaremos parametros  do TIPO de conexão que queremos fazer
-# 1° Parametro: Familia, 2° Tipo, 3° Protocolo
+# Ordem dos parametro 1° Familia, 2° Tipo, 3° Protocolo
 # socket.AF_INET - informa que usaremoso protocolo IP
 # socket.SOCK_STREAM - Informa que usaremos o TCP
 # parametro 0 - informa o protocolo que faz a comunicação com  o servidor, nesse caso o TCP
