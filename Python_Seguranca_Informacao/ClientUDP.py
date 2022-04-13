@@ -13,7 +13,6 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #variavel esta instanceando
 #criando um objeto de conexão na variavel 's'
 
 print('Cliente Socket Criado com Sucesso !!!')
-
 host = 'localhost'
 porta = 5433
 mensagem = ' Ola servidor firmeza?'
