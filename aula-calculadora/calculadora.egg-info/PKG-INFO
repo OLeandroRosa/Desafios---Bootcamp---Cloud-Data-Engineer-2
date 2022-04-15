@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: calculadora
+Version: 0.0.1
+Summary: Calculadora Soma, Subtração, Multiplicação e Divisão
+Author: Leandro Rosa
+Author-email: <leandro.rdeoliveira200@gmail.com>
+License: UNKNOWN
+Keywords: python,calculadora
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Aula07_Calculadora2
+
+Description. 
+The package Calculator is used to:
+ - soma (parameter 1,parameter 2)
+ - substracao (parameter 1,parameter 2)
+ - multiplicacao (parameter 1,parameter 2)
+ - divisao (parameter 1, parameter 2)
+
+## Usage
+
+```python
+from aula07_Calculadora2 import Calculadora
+calculadora_var.soma(valor_a, valor_b)
+calculadora_var.substracao(valor_a, valor_b)
+calculadora_var.multiplicacao(valor_a, valor_b)
+calculadora_var.divisao(valor_a, valor_b)
+```
+
+## Author
+Leandro Rosa
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
